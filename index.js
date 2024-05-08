@@ -18,7 +18,7 @@ const PasswordValidator = () => {
     ? ''
     : 'Your password must be at least 8 charecters'
 
-  const changeText = event => setPasswordValidator(prevState => !prevState)
+  const changeText = () => setPasswordValidator(prevState => !prevState)
 
   return (
     <BgContainer>
